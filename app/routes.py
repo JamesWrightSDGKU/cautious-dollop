@@ -8,7 +8,7 @@ def profile():                  # View function wrapped by @ decorator
     me = {                      # Python dictionary called me with key-value pairs:
         "first_name": "James",
         "last_name": "Wright",
-        "hobbies": "Golf",
+        "hobbies": "Golf and reading",
         "is_online": True
     }
     return me                   # Returning a dictionary automatically converts it to JSON
